@@ -108,6 +108,6 @@ int main() {
         motor_pwm_L.write(dutyLeft); // duty signal for left motor
         motor_pwm_R.write(dutyRight); // duty signal for right motor
 
-        wait(0.1); // Small delay, so smooth things out
+        wait_us(100000); // Small delay, so smooth things out (0.1s)
     }
 }
