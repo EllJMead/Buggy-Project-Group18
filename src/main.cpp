@@ -1,4 +1,3 @@
-/*
 #include "mbed.h"
 #include "QEI.h"
 #include "C12832.h"
@@ -112,8 +111,9 @@ int main() {
         wait_us(100000); // Small delay, so smooth things out (0.1s)
     }
 }
-*/
 
+
+/*
 #include "mbed.h" //Include the Mbed libraries
 class LED //Begin LED class definition
 {
@@ -151,4 +151,4 @@ int main() //Begin main function
  redLED.toggle(); //Toggle the LED
  wait_us(500000); //Wait for 0.5 seconds
  } //Loop infinitely
-}
+}*/
